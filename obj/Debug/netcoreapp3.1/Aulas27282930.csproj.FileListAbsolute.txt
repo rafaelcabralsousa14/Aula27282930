@@ -1,0 +1,13 @@
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\bin\Debug\netcoreapp3.1\Aulas27282930.exe
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\bin\Debug\netcoreapp3.1\Aulas27282930.deps.json
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\bin\Debug\netcoreapp3.1\Aulas27282930.runtimeconfig.json
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\bin\Debug\netcoreapp3.1\Aulas27282930.runtimeconfig.dev.json
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\bin\Debug\netcoreapp3.1\Aulas27282930.dll
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\bin\Debug\netcoreapp3.1\Aulas27282930.pdb
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\obj\Debug\netcoreapp3.1\Aulas27282930.csprojAssemblyReference.cache
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\obj\Debug\netcoreapp3.1\Aulas27282930.csproj.CoreCompileInputs.cache
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\obj\Debug\netcoreapp3.1\Aulas27282930.AssemblyInfoInputs.cache
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\obj\Debug\netcoreapp3.1\Aulas27282930.AssemblyInfo.cs
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\obj\Debug\netcoreapp3.1\Aulas27282930.dll
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\obj\Debug\netcoreapp3.1\Aulas27282930.pdb
+C:\Users\rafac\OneDrive\Documentos\SENAI\Aulas27282930\obj\Debug\netcoreapp3.1\Aulas27282930.genruntimeconfig.cache
