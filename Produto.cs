@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Aulas27282930
 {
@@ -35,7 +36,7 @@ namespace Aulas27282930
             string[] linhas = File.ReadAllLines(PATH);
             foreach (string linha in linhas)
             {
-                string[] dado = linha.Split(';'); 
+                string[] dado = linha.Split(";"); 
             
                 Produto p = new Produto();
                 p.Codigo = Int32.Parse(Separar(dado[0]));
@@ -48,12 +49,31 @@ namespace Aulas27282930
             return prod;           
         }
 
+        public List<Produto> Filtrar(string _nome){
+            return Ler().FindAll(x => x.Nome ==  _nome);
+        }
+
+        public void Remover(string _termo){
+            List<string> linhas = new List<string>();
+            using(StreamReader file = new StreamReader(PATH)){
+                string linha;
+                while((linha = file.ReadLine()) != null){
+                    linhas.Add(linha);
+                }
+                linhas.RemoveAll(z => z.Contains(_termo));
+            }
+
+            using(StreamWriter output = new StreamWriter(PATH)){
+                output.Write(String.Join(Environment.NewLine, linhas.ToArray()));
+            }
+        }
+
         public string Separar(string dado){
             return dado.Split('=')[1];
         }
 
         private string PrepararLinha(Produto p){
-            return $"código={p.Codigo};nome={p.Nome};preço={p.Preco}";
+            return $"\ncódigo={p.Codigo};nome={p.Nome};preço={p.Preco}";
         }
 
         public Produto(int _codigo, string _nome, float _preco){
@@ -61,9 +81,6 @@ namespace Aulas27282930
             this.Nome = _nome;
             this.Preco = _preco;
         }
-
-        
-
 
     }
 }

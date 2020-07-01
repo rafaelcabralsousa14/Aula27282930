@@ -7,8 +7,9 @@ namespace Aulas27282930
     {
         static void Main(string[] args)
         {
-            Produto p1 = new Produto(1, "Hoverboard", 4000f);
+            Produto p1 = new Produto(14, "Os Miserávies", 87.99f);
             p1.Cadastrar(p1);
+            p1.Remover("87,99");
 
             List<Produto> lista = p1.Ler();
 
